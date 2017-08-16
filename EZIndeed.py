@@ -45,7 +45,7 @@ class JobListing(object):
         self.jobkey = job['jobkey']
         self.jobtitle = job['jobtitle']
         self.company = job['company']
-        self.snipped = job['snippet']
+        self.snippet = job['snippet']
         self.RelativeTime = job['formattedRelativeTime']
         self.date = job['date']
         self.city = job['city']
