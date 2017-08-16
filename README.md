@@ -1,7 +1,7 @@
 EZIndeed
 ======
 
-#### A simple Indeed.com wrapper that works with both python2 and python3. Made to help you find jobs EZIndeed.
+#### A simple Indeed.com wrapper that works with both python2 and python3. It'll be easy to find your next dream job, EZIndeed. 
 
 Usage:
 ------
