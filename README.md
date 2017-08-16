@@ -1,7 +1,7 @@
 EZIndeed
 ======
 
-#### A simple Indeed.com wrapper that works with both python2 and python3. It'll be easy to find your next dream job, EZIndeed. 
+#### A simple Indeed.com wrapper that works with both python2 and python3. It'll be easy to find your next dream job, EZIndeed.
 
 Usage:
 ------
@@ -50,6 +50,10 @@ TestSearch = test.search("Python Web Dev Internship","Seattle,WA","US",3,full=Tr
 Instructions:
 ------
 * Download Zip, unpack into your project.
+* Install from requirements.txt
+``` bash
+pip install -r requirements.txt
+```
 
 * import to your project
 ``` python

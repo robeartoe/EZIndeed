@@ -1,5 +1,3 @@
-#!/EZIndeed/bin/python
-
 import requests
 
 class EZIndeed(object):
