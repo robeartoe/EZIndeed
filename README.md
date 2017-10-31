@@ -5,7 +5,7 @@ EZIndeed
 
 Usage:
 ------
-EZIndeed has only two classes. EZIndeed and JobListing. You can search for jobs with EZIndeed, and you can either return a list of JobListing objects or the full unaltered json. When you return a list of JobListing objects, you can access it's attributes or full json, or you can look up more detail to that job with the jobDetails method.
+EZIndeed has only two classes. EZIndeed and JobListing. You can search for jobs with EZIndeed, and you can either return a list of JobListing objects or the full unaltered json. When you return a list of JobListing objects, you can access its attributes, full json, or you can look up more detail to that job with the jobDetails method.
 
 
 ``` python
@@ -43,14 +43,15 @@ for job in TestSearch:
     print(JobDetails.city)
     print(job.url)
 
+#When full parameter is true, the full json will be returned instead of JobListing Objects.
 TestSearch = test.search("Python Web Dev Internship","Seattle,WA","US",3,full=True)
 
 ```
 
 Instructions:
 ------
-* Download Zip, unpack into your project.
-* Install from requirements.txt
+* Download Zip, unpack into folder, or clone repo.
+* Install from requirements.txt(Recommended to use a virtual enviroment)
 ``` bash
 pip install -r requirements.txt
 ```
